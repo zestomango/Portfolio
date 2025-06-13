@@ -1,0 +1,310 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    /*A40101 extra color*/
+    background-color: black;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-position: center; 
+}
+
+.top_nav1, .top_nav2, .top_nav3, .top_nav4 {
+    width: 15%;
+    height: auto;
+    margin-top: 10px;
+    transition: transform 0.5s ease;
+}
+
+.top_nav1:hover, .top_nav2:hover, .top_nav3:hover, .top_nav4:hover {
+    transform: scale(1.2);
+}
+
+.container {
+    position: relative;
+}
+
+
+.mainBackground {
+    width: 100%;
+    height: 1%;
+    margin-top: 15%;
+    text-align: center;
+    
+}
+
+.redDotsBackground {
+    width: 100%;
+    height: auto;
+    top: 4%;
+    position: absolute;
+    right: 0px;
+}
+
+.section2 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    opacity: 50%;
+    top: -16%;
+    right: 0%;
+    z-index: -1;
+}
+
+#topButton {
+    position: fixed;
+    width: 5vw;
+    height: 10vh;
+    bottom: 5%;
+    right: 3%;
+}
+
+@media only screen and (max-width: 600px) {
+  #topButton {
+    width: 10%;
+    height: 5%;
+    right: 5%;
+    bottom: 7%;
+  }
+}
+
+.footer {
+    color: white;
+    border-color: black;
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    text-align: center;
+    border-style: solid
+}
+
+.title-text {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 4vw;
+    width: 100%;
+    height: auto;
+}
+
+.title-about {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    top: 4%;
+    scale: 100%;
+    right: 30%;
+}
+
+.title-skills {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    scale: 100%;
+    right: 30%;
+    top: 31%;
+}
+
+.title-works {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    scale: 100%;
+    right: 30%;
+    top: 50%;
+}
+
+.joker-mask {
+    position: absolute;   
+    width: 100%;
+    scale: 20%;
+    top: 7%;
+    height: auto;
+    right: 3%;
+}
+
+.golden_text_box {
+    width: 100%;
+    scale: 50%;
+    right: -20%;
+    top: 7%;
+    height: auto;
+    position: absolute;
+}
+
+
+.golden_text_box_flipped {
+    width: 100%;
+    scale: 50%;
+    right: 20%;
+    top: 17%;;
+    height: auto;
+    position: absolute;
+}
+
+.text-box-skills {
+    width: 100%;
+    height: auto;
+    scale: 75%;
+    position: absolute;
+    right: -1%;
+    top: 33%;
+}
+
+.stars_bg {
+    width: 100%;
+    height: auto;
+    scale: 100%;
+    position: absolute;
+    top: 32%;
+    right: 1%;
+
+}
+
+.personal-info-text {
+    width: 100%;
+    font-size: 1vw;
+    right: -48%;
+    top: 12%;
+    height: auto;
+    font-weight: bolder;
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.personal-info-text2 {
+    width: 100%;
+    font-size: 1vw;
+    right: 48%;
+    top: 21%;
+    height: auto;
+    text-align: right;
+    font-weight: bolder;
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#project1 {
+    width: 40%;
+    height: auto;
+    top: 55%;
+    left: 3%;
+    position: absolute;
+    transition: transform 0.5s ease;    
+}
+
+
+#project2 {
+    width: 40%;
+    top: 55%;
+    right: 3%;
+    height: auto;
+    position: absolute;   
+    transition: transform 0.5s ease;     
+}
+
+#project3 {
+    width: 40%;
+    top: 48%;
+    top: 68%;
+    right: 30%;
+    height: auto;
+    position: absolute;    
+    transition: transform 0.5s ease;    
+}
+
+#project1:hover, #project2:hover, #project3:hover {
+    transform: scale(1.1);
+}
+
+#title-socials {
+    position: absolute;
+    width: 40%;
+    scale: 100%;
+    height: auto;
+    top: 82%;
+    right: 30%;
+}
+
+#socials1, #socials2, #socials3, #socials4 {
+    position: absolute;
+    top: 88%;
+    right: 45%;
+    width: 12%;
+    height: auto;
+}
+
+#socialsbox1, #socialsbox2, #socialsbox3, #socialsbox4 {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#socialsbox1.fade, #socialsbox2.fade, #socialsbox3.fade, #socialsbox4.fade {
+    opacity: 1;
+}
+
+/*#socials1:hover, #socials2:hover, #socials3:hover, #socials4:hover {
+    opacity: 70%;
+}*/
+
+#socials1 {
+    left: 9%;
+}
+
+#socialsbox1 {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    top: 92%;
+    left: 5%;
+}
+
+#socials2 {
+    left: 33%;
+}
+
+#socialsbox2 {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    top: 92%;
+    left: 29%;    
+}
+
+#socials3 {
+    right: 33%;
+}
+
+#socialsbox3 {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    top: 92.2%;
+    left: 52.5%;        
+}
+
+#socials4 {
+    right: 9%;
+}
+
+#socialsbox4 {
+    position: absolute;
+    width: 13%;
+    height: auto;
+    top: 92.2%;
+    left: 78.4%;      
+}
