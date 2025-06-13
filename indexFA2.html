@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finals Activity 2</title>
+     <link rel="stylesheet" href="css\stylesFA2.css">
+     <script type="text/javascript" src="js\functionsFA2.js"></script>
+</head>
+<body style="background-color: #fffdd0;">
+  <div class="formsBorder">
+     <h1 id="registrationTitle">Registration</h1>
+     <br>
+    <form class="forms">
+
+      <!--FULL NAME-->
+      <label for="name" id="name">Name:</label>
+      <br>
+      <input type="text" id="inputName" name="name" placeholder="Full Name" required>
+      <br>
+      <br>
+
+      <!--EMAIL-->
+      <label id="email">Email</label>
+      <br>
+      <input type="email" placeholder="Email" id="inputEmail" required>
+      <br> 
+      <br>     
+        
+      <!--PASSWORD-->
+      <label>Password</label>
+      <br>
+      <input type="password" placeholder="Password" id="inputPassword" required>
+      <br>
+      <br>
+
+      <!--PHONE NUMBER-->
+      <label>Phone Number</label>
+      <br>
+      <input type="number" placeholder="Number" id="inputNumber" required>
+      <br>
+      <br>
+
+      <!--GENDER-->
+      <label>Gender:</label>
+      <br>
+      <input type="radio" name="selectGender" placeholder="Gender" id="inputGender" required>Male
+      <input type="radio" name="selectGender" placeholder="Gender" id="inputGender" required>Female
+      <Br>
+      <br>
+
+      <!--DATE OF BIRTH-->
+      <label>Date of Birth:</label>
+      <br>
+      <input type="date" name="date" placeholder="Date of Birth" id="inputDate" required>
+      <br>
+      <br>
+
+      <!--COURSE/PROGRAM-->        
+      <label>Course/Program </label>
+      <br>
+      <select name="course" id="inputCourse" required>
+          <option disabled selected></option>
+          <option>Information Technology</option>
+          <option>Nursing</option>
+          <option>Optometry</option>
+          <option>Marketing</option>
+          <option>Tourism</option>
+          <option>Dentistry</option>
+      </select>
+      <br>
+      <br>
+
+      <!--TERMS AND CONDITIONS-->
+      <input type="checkbox" name="terms" placeholder="Terms & Conditions" id="inputTerms" required>I agree to the <b>Terms & Conditions.</b>
+      <br>
+      <br>
+      <br>
+
+
+      <!--SUBMIT BUTTON-->
+      <input type="submit" onclick="MyFunction()" name="button" placeholder="Register" id="register" style="width: 150px; height: 50px;">
+    </form>
+  </div>
+
+</body>
+</html>
